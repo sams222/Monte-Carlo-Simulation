@@ -1,0 +1,22 @@
+10,000 trials per group size (seed=217)
+People     2+ Exact       2+ Sim       3+ Sim    3+ Approx
+----------------------------------------------------------
+    10       11.69%       11.61%        0.06%        0.09%
+    23       50.73%       51.92%        1.15%        1.32%
+    30       70.63%       70.76%        2.86%        3.00%
+    40       89.12%       89.14%        6.65%        7.15%
+    50       97.04%       97.13%       12.72%       13.68%
+    60       99.41%       99.45%       20.81%       22.65%
+    75       99.97%       99.95%       35.62%       39.76%
+    85      100.00%      100.00%       48.09%       52.35%
+    88      100.00%      100.00%       51.47%       56.12%
+    90      100.00%      100.00%       53.31%       58.60%
+   100      100.00%      100.00%       65.76%       70.29%
+   120      100.00%      100.00%       81.70%       87.85%
+   150      100.00%      100.00%       96.34%       98.40%
+
+Effect of trial count on 3+ shared birthdays (88 people):
+    100: 48.00%; estimated standard error: 5.00 percentage points
+  1,000: 48.90%; estimated standard error: 1.58 percentage points
+ 10,000: 50.65%; estimated standard error: 0.50 percentage points
+100,000: 51.01%; estimated standard error: 0.16 percentage points
